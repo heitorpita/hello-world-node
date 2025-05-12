@@ -1,30 +1,29 @@
-# hello-world-node API
+# Hello World Node
 
-API básica em Node
+Este projeto é uma API simples criada com Node.js. Serve como exemplo para estudos ou ponto de partida para aplicações maiores, com integração contínua configurada via GitHub Actions e testes automatizados com Jest.
 
-## Ambientes
+## 🚀 Funcionalidades
 
-| Env | URL                         |
-| --- | --------------------------- |
-| LOCAL | http://localhost:5000/health |
-| PROD  | https://node-server-test-5svf.onrender.com | 
+- API básica com endpoint `/health`
+- Suporte a desenvolvimento local e deploy em produção
+- Integração contínua via GitHub Actions
+- Testes automatizados com Jest
+- Padronização de código com ESLint e Prettier
 
-### Como executar
+---
 
-Instalando as dependências:
+## 📦 Requisitos
 
-```
-$ npm i
-```
-Roda a aplicação em modo desenvolvimento
+- Node.js 20.x
+- npm (geralmente instalado junto com o Node.js)
 
-```
-$ npm run start:dev
-```
+---
 
-### Como testar
+## 🔧 Instalação
 
-```
-$ npm run test
-```
+Clone o repositório e instale as dependências:
 
+```bash
+git clone https://github.com/heitorpita/hello-world-node.git
+cd hello-world-node
+npm install
